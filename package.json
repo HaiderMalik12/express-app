@@ -1,0 +1,30 @@
+{
+  "name": "expressapp",
+  "version": "0.0.0",
+  "description": "Basic Express App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HaiderMalik12/express-app.git"
+  },
+  "author": "Haider Malik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaiderMalik12/express-app/issues"
+  },
+  "homepage": "https://github.com/HaiderMalik12/express-app",
+  "dependencies": {
+    "express": "^4.13.4",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "nodemailer": "^1.4.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
